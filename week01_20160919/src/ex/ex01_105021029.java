@@ -10,7 +10,7 @@ public class ex01_105021029 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		java.util.Scanner scn = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入攝氏溫度:");
 		int a = scn.nextInt();
 		int b = (a-32)*5/9;

@@ -10,7 +10,7 @@ public class hw01_105021029 {
 	public static void  main(String[] args) {
 		// TODO Auto-generated method stub
 
-		java.util.Scanner scn = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 		System.out.println(" 輸入一個數字n:");
 		int n = scn.nextInt();
 		double a =Math.ceil(Math.log(n)/Math.log(2));

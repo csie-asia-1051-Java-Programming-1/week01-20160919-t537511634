@@ -10,7 +10,7 @@ public class ex02_105021029 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		java.util.Scanner scn = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入公斤:");
 		int a = scn.nextInt();
 		double b = a*(1/0.45359);

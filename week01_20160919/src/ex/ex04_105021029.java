@@ -10,7 +10,7 @@ public class ex04_105021029 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		java.util.Scanner scn = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入數字 a:");
 		int a = scn.nextInt();		
 		double c = Math.sqrt(a);

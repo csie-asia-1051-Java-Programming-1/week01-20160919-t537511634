@@ -10,9 +10,11 @@ public class hw02_105021029 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 		Scanner scn = new Scanner(System.in);
-		Scanner rnd = new Random();
+		Random rnd = new Random();
+		System.out.println(" 輸入一個數字n:");
+		int n = scn.nextInt();
 	}
 
 }
