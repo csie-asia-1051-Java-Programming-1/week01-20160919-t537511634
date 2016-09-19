@@ -4,7 +4,6 @@ package hw;
  * Date: 2016/09/19
  * Author: 105021029 汪元浩
  */
-import java.util.Random;
 import java.util.Scanner;
 public class hw01_105021029 {
 
