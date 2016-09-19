@@ -21,7 +21,7 @@ public class hw03_105021029 {
 		float g = Math.min(a, b);
 		float h = Math.min(b, g);
 		float i = Math.min(c, h);
-		float j = Math.min(d, b);
+		float j = Math.min(d, i);
 		float k = Math.min(e, j);
 		float l = Math.min(f, k);
 		System.out.println("每一個值都取四捨五入後輸出這 6 個數中的最小值為:"+ l);
