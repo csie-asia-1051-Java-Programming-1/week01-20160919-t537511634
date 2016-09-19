@@ -12,19 +12,19 @@ public class hw03_105021029 {
 
 		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入6個數(可以小有數) :");
-		float a = scn.nextInt();
-		float b = scn.nextInt();
-		float c = scn.nextInt();
-		float d = scn.nextInt();
-		float e = scn.nextInt();
-		float f = scn.nextInt();
-		float g = Math.min(a, b);
-		float h = Math.min(b, g);
-		float i = Math.min(c, h);
-		float j = Math.min(d, i);
-		float k = Math.min(e, j);
-		float l = Math.min(f, k);
-		System.out.println("每一個值都取四捨五入後輸出這 6 個數中的最小值為:"+ l);
+		int a = Math.round(scn.nextFloat());
+		int b = Math.round(scn.nextFloat());		
+		int c = Math.min(a,b);
+		a = Math.round(scn.nextFloat());
+		c = Math.min(a,c); 
+		a = Math.round(scn.nextFloat());
+		c = Math.min(a,c); 
+		a = Math.round(scn.nextFloat());
+		c = Math.min(a,c); 
+		a = Math.round(scn.nextFloat());
+		c = Math.min(a,c); 
+
+		System.out.println("每一個值都取四捨五入後輸出這 6 個數中的最小值為:"+ c);
 	}
 
 }
